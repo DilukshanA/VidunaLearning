@@ -47,7 +47,7 @@ const AddProduct = () => {
         
         formData.append('product',owner_logo);
 
-        await fetch('http://localhost:4000/upload',{
+        await fetch('https://viduna-learning-backend.vercel.app/upload',{
             method:'POST',
             headers:{
                 Accept:'application/json',
@@ -72,7 +72,7 @@ const AddProduct = () => {
         
         formData.append('product',Product_image);
     
-        await fetch('http://localhost:4000/upload',{
+        await fetch('https://viduna-learning-backend.vercel.app/upload',{
             method:'POST',
             headers:{
                 Accept:'application/json',
@@ -98,7 +98,7 @@ const AddProduct = () => {
         formData.append('product',image);
 
 
-        await fetch('http://localhost:4000/upload',{
+        await fetch('https://viduna-learning-backend.vercel.app/upload',{
             method:'POST',
             headers:{
                 Accept:'application/json',
@@ -113,7 +113,7 @@ const AddProduct = () => {
             console.log(product);
 
 
-            await fetch('http://localhost:4000/addproduct', {
+            await fetch('https://viduna-learning-backend.vercel.app/addproduct', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
@@ -141,7 +141,7 @@ const AddProduct = () => {
         //formData.append('owner_logo',owner_logo);
         
 
-        await fetch('http://localhost:4000/upload',{
+        await fetch('https://viduna-learning-backend.vercel.app/upload',{
             method:'POST',
             headers:{
                 Accept:'application/json',
@@ -162,7 +162,7 @@ const AddProduct = () => {
             
 
 
-            await fetch('http://localhost:4000/addproduct', {
+            await fetch('https://viduna-learning-backend.vercel.app/addproduct', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',

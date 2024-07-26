@@ -10,7 +10,7 @@ const Popular = () => {
   const [popularProducts, setPopularProducts] = useState([]);
 
   useEffect(()=>{
-    fetch('http://localhost:4000/popular')
+    fetch('https://viduna-learning-backend.vercel.app/popular')
     .then((response)=>response.json())
     .then((data)=>setPopularProducts(data));
   },[])
